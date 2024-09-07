@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+
+
+body {
+}
+header {
+  height: 680px;
+}
+.header__img {
+  background: url("../assets/mobile/image-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 290px;
+}
+.header h1 {
+  padding-top: 24px;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+}
+.header__descr {
+  height: 104px;
+  padding-top: px;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Outfit", sans-serif;
+}
+.header__location {
+  display: flex;
+  padding-top: 32px;
+}
+.header__location p {
+  width: 204px;
+  padding: 16px;
+  background-color: var(--darkGray);
+  color: var(--white);
+  text-align: center;
+}
+.header__location button {
+  width: 52px;
+  background-color: var(--Salmon);
+  border: none;
+  padding: 16px;
+}
+main {
+  height: 2200px;
+}
+.main__img1 {
+  height: 32%;
+  width: 100%;
+  background-image: url("../assets/mobile/image-grid-1@2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main__div h2 {
+  padding-top: 32px;
+  font-size: 50px;
+  line-height: 55px;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+}
+.main__div p {
+  padding-top: 32px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.main__figure {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 32px;
+}
+.main__figure2 {
+  margin-top: 32px;
+}
+.main__div2 {
+  height: 300px;
+  margin-top: 48px;
+  padding-left: 24px;
+  background-color: var(--darkGray);
+  color: var(--white);
+}
+.main__div2 h2 {
+  padding-top: 52px;
+  font-size: 50px;
+}
+.main__div2 p {
+  padding-top: 24px;
+}
+.footer {
+  height: 250px;
+  background-color: var(--darkGray);
+  color: var(--white);
+  padding-left: 32px;
+  padding-top: 48px;
+  margin-top: 48px;
+}
+.footer h3 {
+  font-size: 20px;
+
+}
+.footer p {
+  font-size: 16px;
+  padding-top: 32px;
+
+}
+.footer__img {
+   display: flex;
+   gap: 16px;
+   padding-top: 32px;
+}
+

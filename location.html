@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/location.css">
+    <link rel="stylesheet" href="./styles/location.css" />
     <link
       rel="icon"
       type="image/png"
@@ -14,7 +14,11 @@
     <title>Frontend Mentor | Art gallery website</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <span class="header__span">
+        <button><img src="./assets/icon-arrow-left.svg" /></button>
+        <p>BACK TO HOME</p>
+      </span>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.0591989572663!2d-71.31293522411636!3d41.48131627128803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5af5d9ad9f351%3A0x9bf38f9aed123934!2s99%20King%20St%2C%20Newport%2C%20RI%2002840%2C%20USA!5e0!3m2!1sen!2suk!4v1724601209494!5m2!1sen!2suk"
         width="600"
@@ -24,15 +28,11 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-      <span>
-        <button><img src="./assets/icon-arrow-left.svg" /></button>
-        <p>BACK TO HOME</p>
-      </span>
     </header>
-    <section>
+    <section class="section__location">
       <h2>OUR LOCATION</h2>
-      <p>
-        99 King Street<br />
+      <h3>99 King Street</h3>
+      <p class="location__address">
         Newport<br />
         RI 02840<br />
         United States of America<br />
@@ -44,13 +44,13 @@
       </p>
     </section>
   </body>
-  <footer>
-    <h3>MODERN ART GALLERY</h3>
+  <footer class="footer">
+    <h4>MODERN ART GALLERY</h4>
     <p>
       The Modern Art Gallery is free to all visitors and open seven days a week
       from 8am to 9pm. Find us at 99 King Street, Newport, USA.
     </p>
-    <div>
+    <div class="footer__img">
       <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z"
