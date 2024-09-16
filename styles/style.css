@@ -1,27 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
 
-
 :root {
   --Salmon: #d5966c;
   --darkGray: #151515;
   --gray: #444444;
   --white: #ffffff;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  overflow-x: hidden;
+}
 body {
-  width:100%;
-  height:100vh
+  width: 100%;
+  height: 100vh;
 }
 header {
- width: 100%;
- display: flex;
- flex-direction: column;
- align-items: center;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header__img {
   width: 100%;
@@ -30,19 +31,15 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   height: 290px;
-  
 }
-.header__itens{
+.header__itens {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap:32px;
+  gap: 32px;
   padding: 32px 16px 0 16px;
-  
-
 }
 .header__itens h1 {
-  
   font-size: 60px;
   line-height: 55px;
   text-transform: uppercase;
@@ -54,7 +51,6 @@ header {
   line-height: 28px;
   font-family: "Outfit", sans-serif;
   font-weight: 200;
-
 }
 .header__location {
   height: 72px;
@@ -63,14 +59,11 @@ header {
   background-color: var(--darkGray);
   color: var(--white);
   text-align: center;
-
 }
-.header__location h2{
+.header__location h2 {
   font-family: "Big Shoulders Display";
   padding: 24px 34px;
   letter-spacing: 3.64px;
-
-
 }
 .header__location button {
   height: 100%;
@@ -120,9 +113,11 @@ main {
 .main__div2 h2 {
   padding-top: 52px;
   font-size: 50px;
+ 
 }
 .main__div2 p {
   padding-top: 24px;
+  font-family: "Outfit", sans-serif;
 }
 .footer {
   height: 250px;
@@ -134,16 +129,15 @@ main {
 }
 .footer h3 {
   font-size: 20px;
-
+  font-family: "Outfit", sans-serif;
 }
 .footer p {
   font-size: 16px;
   padding-top: 32px;
-
+  font-family: "Outfit", sans-serif;
 }
 .footer__img {
-   display: flex;
-   gap: 16px;
-   padding-top: 32px;
+  display: flex;
+  gap: 16px;
+  padding-top: 32px;
 }
-
