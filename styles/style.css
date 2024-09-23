@@ -133,7 +133,6 @@ main {
   font-size: 36px;
   font-family: "Big Shoulders Display";
   line-height: 36px;
-
 }
 .footer p {
   font-size: 16px;
@@ -145,6 +144,23 @@ main {
   display: flex;
   gap: 16px;
   padding-top: 38px;
- 
-
+}
+@media screen and (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+  .header__img {
+    background: url(../assets/tablet/image-hero@2x.jpg);
+    height: 720px;
+    width: 437px;
+    background-size: cover;
+  }
+  .header__itens {
+    position: absolute;
+    width: 339px;
+    right: 0;
+    margin-right: 40px;
+  }
 }

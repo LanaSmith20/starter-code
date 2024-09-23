@@ -27,13 +27,11 @@
   width: 100%;
   height: auto;
   background-color: var(--darkGray);
-  padding: 16px 24px
+  padding: 48px 16px 56px 16px;
  
 }
 .section__location h2 {
   font-family: "Big Shoulders Display";
-  padding-top: 48px;
-  padding-bottom: 24px;
   font-size: 50px;
   color: var(--white);
 }
@@ -53,26 +51,7 @@
   font-weight: 300;
 
 }
-.footer2 {
-  height: auto;
-  background-color: var(--darkGray);
-  color: var(--white);
-  padding: 48px 32px;
-}
-.footer2 h3 {
-  font-size: 36px;
-  font-family: "Big Shoulders Display";
-  line-height: 36px;
-
-}
-.footer2 p {
-  font-size: 16px;
-  padding-top: 32px;
-  font-family: "Outfit", sans-serif;
-  line-height: 26px;
-}
-.footer__img2 {
-  display: flex;
-  gap: 16px;
-  padding-top: 38px;
+.footer {
+  background-color: var(--Salmon);
+  color: var(--darkGray);
 }
